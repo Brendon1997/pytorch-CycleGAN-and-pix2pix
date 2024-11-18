@@ -2,8 +2,8 @@ import os
 from PIL import Image
 
 # Paths to the folders
-input_folder = '/Users/brendonshuke/Downloads/drive-download-20241113T151241Z-001'
-output_folder = '/Users/brendonshuke/Downloads/drive-download-20241113T151241Z-001/resized'
+input_folder = '/Users/brendonshuke/Downloads/photos'
+output_folder = '/Users/brendonshuke/Downloads/photos/resized'
 
 # Make sure the output folder exists
 os.makedirs(output_folder, exist_ok=True)
